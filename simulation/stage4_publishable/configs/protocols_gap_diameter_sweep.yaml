@@ -1,0 +1,15 @@
+protocols:
+  - label: balanced
+    power_W: 60.0
+    time_s: 600.0
+  - label: aggressive
+    power_W: 70.0
+    time_s: 600.0
+grid:
+  gaps_mm: [0, 2, 5]
+  vessel_diameters_mm: [3, 5, 8]
+panel:
+  gap_mm: 0
+  vessel_diameters_mm: [3, 5, 8]
+comparison:
+  vessel_diameter_mm: 5

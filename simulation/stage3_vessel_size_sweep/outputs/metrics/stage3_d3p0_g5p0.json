@@ -1,0 +1,15 @@
+{
+  "case_id": "stage3_d3p0_g5p0",
+  "gap_mm": 5.0,
+  "vessel_diameter_mm": 3.0,
+  "has_vessel": 1,
+  "equivalent_lesion_diameter_mm": 32.815814978831284,
+  "TCR": 1.0,
+  "MDI": 0.21666666666666667,
+  "VUA_deg": 13.0,
+  "DSC_target": 0.6975806451612904,
+  "PPV_target": 0.5454545454545454,
+  "target_area_px": 1073,
+  "lesion_area_px": 1903,
+  "tumor_area_px": 401
+}

@@ -1,0 +1,14 @@
+{
+  "case_id": "stage2_gap3p0",
+  "gap_mm": 3.0,
+  "has_vessel": 1,
+  "equivalent_lesion_diameter_mm": 32.268049297599376,
+  "TCR": 1.0,
+  "MDI": 0.25,
+  "VUA_deg": 15.0,
+  "DSC_target": 0.6872639890147614,
+  "PPV_target": 0.5440217391304348,
+  "target_area_px": 1073,
+  "lesion_area_px": 1840,
+  "tumor_area_px": 401
+}

@@ -1,0 +1,6 @@
+
+sweep:
+  case_prefix: novessel
+  powers_W: [50, 60, 70]
+  times_s: [480, 600, 720]
+  save_case_figures: false

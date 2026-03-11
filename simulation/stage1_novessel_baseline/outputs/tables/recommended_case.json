@@ -1,0 +1,14 @@
+{
+  "case_id": "novessel_p70_t10",
+  "power_W": 70.0,
+  "time_s": 600.0,
+  "equivalent_lesion_diameter_mm": 32.46909827883594,
+  "TCR": 1.0,
+  "MDI": 0.0,
+  "VUA_deg": 0.0,
+  "DSC_target": 0.7309264305177112,
+  "PPV_target": 0.5759527643585615,
+  "target_area_px": 1073,
+  "lesion_area_px": 1863,
+  "tumor_area_px": 401
+}

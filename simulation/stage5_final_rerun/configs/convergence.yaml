@@ -1,0 +1,13 @@
+grid_shapes: [121, 161, 201]
+fixed_dt_s: 2.0
+time_steps_s: [4.0, 2.0, 1.0]
+fixed_grid_n: 161
+
+cases:
+  - label: novessel
+    disable_vessel: true
+
+  - label: severe_vessel
+    disable_vessel: false
+    gap_mm: 0.0
+    vessel_diameter_mm: 8.0

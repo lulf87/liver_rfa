@@ -1,0 +1,17 @@
+{
+  "protocol_label": "balanced",
+  "power_W": 60.0,
+  "time_s": 600.0,
+  "gap_mm": 2.0,
+  "vessel_diameter_mm": 3.0,
+  "has_vessel": 1,
+  "equivalent_lesion_diameter_mm": 29.580971537784905,
+  "TCR": 0.998589562764457,
+  "MDI": 0.32142857142857145,
+  "VUA_deg": 27.0,
+  "DSC_target": 0.7452066467831274,
+  "PPV_target": 0.6362313568570389,
+  "target_area_px": 1945,
+  "lesion_area_px": 2749,
+  "tumor_area_px": 709
+}

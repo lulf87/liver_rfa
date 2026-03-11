@@ -1,0 +1,4 @@
+grid:
+  gaps_mm: [0, 1, 2, 3, 5]
+panel:
+  gaps_mm: [0, 2, 5]

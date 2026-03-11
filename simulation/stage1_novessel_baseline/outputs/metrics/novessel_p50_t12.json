@@ -1,0 +1,11 @@
+{
+  "equivalent_lesion_diameter_mm": 29.568414804508414,
+  "TCR": 1.0,
+  "MDI": 0.16666666666666666,
+  "VUA_deg": 0.0,
+  "DSC_target": 0.8059587471352178,
+  "PPV_target": 0.6828478964401294,
+  "target_area_px": 1073,
+  "lesion_area_px": 1545,
+  "tumor_area_px": 401
+}

@@ -1,0 +1,6 @@
+grid:
+  gaps_mm: [0, 2, 5]
+  vessel_diameters_mm: [3, 5, 8]
+panel:
+  gap_mm: 0
+  vessel_diameters_mm: [3, 5, 8]

@@ -1,0 +1,17 @@
+{
+  "protocol_label": "aggressive",
+  "power_W": 70.0,
+  "time_s": 600.0,
+  "gap_mm": 0.0,
+  "vessel_diameter_mm": 5.0,
+  "has_vessel": 1,
+  "equivalent_lesion_diameter_mm": 31.513915099419492,
+  "TCR": 0.970074812967581,
+  "MDI": 0.31666666666666665,
+  "VUA_deg": 19.0,
+  "DSC_target": 0.6647807637906648,
+  "PPV_target": 0.5356125356125356,
+  "target_area_px": 1073,
+  "lesion_area_px": 1755,
+  "tumor_area_px": 401
+}
