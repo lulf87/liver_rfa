@@ -1,0 +1,28 @@
+source:
+  final_stage_root: ../stage5_final_frozen
+  final_summary_csv: outputs/tables/stage4_protocol_gap_diameter_summary.csv
+  base_config: configs/base.yaml
+
+figures:
+  output_supp_dir: outputs/fig_supp
+  export_pdf: true
+  export_png: true
+  png_dpi: 600
+
+style:
+  font_family: DejaVu Sans
+  text_color: '#333333'
+  axis_color: '#4A4A4A'
+  balanced_color: '#2A9D8F'
+  aggressive_color: '#E76F51'
+
+calibration:
+  source_scale_min: 6.5
+  source_scale_max: 8.5
+  num_points: 21
+  target_diameter_mm: 22.0
+  protocol_power_W: 50.0
+  protocol_time_s: 480.0
+
+benchmark:
+  reference_vessel_diameter_mm: 5.0

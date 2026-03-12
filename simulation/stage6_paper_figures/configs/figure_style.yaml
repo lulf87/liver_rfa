@@ -1,0 +1,55 @@
+source:
+  stage_root: ../stage5_final_frozen
+  summary_csv: outputs/tables/stage4_protocol_gap_diameter_summary.csv
+  convergence_csv: outputs/tables/stage4_convergence_summary.csv
+  base_config: configs/base.yaml
+  protocol_sweep: configs/protocols_gap_diameter_sweep.yaml
+
+figures:
+  output_main_dir: outputs/fig_main
+  output_supp_dir: outputs/fig_supp
+  export_pdf: true
+  export_png: true
+  png_dpi: 600
+
+style:
+  font_family: DejaVu Sans
+  panel_facecolor: "#FAF8F3"
+  panel_edgecolor: "#D9D2C7"
+  text_color: "#333333"
+  tissue_fill: "#E8DCCB"
+  tumor_fill: "#F08A7E"
+  vessel_fill: "#A9D6E5"
+  lesion_line: "#5B3F8C"
+  target_line: "#7A7A7A"
+  electrode_fill: "#8E8E8E"
+  balanced_color: "#2A9D8F"
+  aggressive_color: "#E76F51"
+  accent_color: "#4C6EF5"
+
+representative_cases:
+  - panel_label: "(A)"
+    short_label: "No vessel"
+    protocol_label: aggressive
+    has_vessel: false
+  - panel_label: "(B)"
+    short_label: "Balanced, gap 0 mm"
+    protocol_label: balanced
+    has_vessel: true
+    gap_mm: 0.0
+    vessel_diameter_mm: 5.0
+  - panel_label: "(C)"
+    short_label: "Aggressive, gap 0 mm"
+    protocol_label: aggressive
+    has_vessel: true
+    gap_mm: 0.0
+    vessel_diameter_mm: 5.0
+  - panel_label: "(D)"
+    short_label: "Aggressive, gap 5 mm"
+    protocol_label: aggressive
+    has_vessel: true
+    gap_mm: 5.0
+    vessel_diameter_mm: 5.0
+
+tradeoff:
+  vessel_diameter_mm: 5.0
