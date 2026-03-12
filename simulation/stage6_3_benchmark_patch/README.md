@@ -1,18 +1,16 @@
 # stage6_3_benchmark_patch
 
-This patch refines **Fig S4(B)** so that the benchmark is easier to interpret in the paper.
+**Status:** current canonical generator for Supplementary Figure S4.
 
-Instead of plotting the **absolute lesion-diameter penalty (mm)**, the updated figure uses:
+This patch refines the benchmark figure so that the paper package uses a more interpretable normalized benchmark.
 
-```text
-normalized lesion reduction (%)
-= (D_no_vessel - D_vessel) / D_no_vessel × 100
-```
+## Output produced here
 
-This makes the balanced and aggressive protocols directly comparable even when their no-vessel baseline diameters differ.
+- **Fig S4:** calibration and normalized heat-sink benchmark
+  - (A) baseline calibration curve
+  - (B) normalized lesion reduction (%) benchmark
 
 ## Expected upstream stage
-By default this patch expects:
 
 ```text
 simulation/stage5_final_frozen/
@@ -25,6 +23,7 @@ configs/figure_style.yaml
 ```
 
 ## Run
+
 ```bash
 cd ~/Projects/liver_rfa/simulation/stage6_3_benchmark_patch
 python3 -m venv .venv
@@ -32,10 +31,4 @@ source .venv/bin/activate
 pip install -U pip
 pip install -r requirements.txt
 bash run_all.sh
-```
-
-## Outputs
-```text
-outputs/fig_supp/FigS4_calibration_benchmark.pdf
-outputs/fig_supp/FigS4_calibration_benchmark.png
 ```

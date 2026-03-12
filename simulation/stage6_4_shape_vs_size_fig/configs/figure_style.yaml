@@ -1,0 +1,16 @@
+source:
+  final_summary_csv: ../stage5_final_frozen/outputs/tables/stage4_protocol_gap_diameter_summary.csv
+
+output:
+  outdir: outputs/fig_supp
+  basename: FigS6_shape_vs_size_comparison
+
+style:
+  save_dpi: 300
+  pdf: true
+  png: true
+  facecolor: white
+  figsize: [10.6, 4.8]
+  colors:
+    balanced: '#2A9D8F'
+    aggressive: '#E76F51'

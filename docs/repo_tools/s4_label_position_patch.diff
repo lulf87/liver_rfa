@@ -1,0 +1,15 @@
+*** Update File: simulation/stage6_3_benchmark_patch/src/rfa_stage6_3/refined_benchmark.py
+@@
+-ax.text(float(sel['source_scale_per_W']) + 0.03,
+-        float(sel['equivalent_lesion_diameter_mm']) + 0.15,
+-        f'selected = {float(sel["source_scale_per_W"]):.2f}', fontsize=7.6)
++ax.text(float(sel['source_scale_per_W']) + 0.08,
++        float(sel['equivalent_lesion_diameter_mm']) + 0.28,
++        f'selected = {float(sel["source_scale_per_W"]):.2f}',
++        fontsize=7.6,
++        ha='left',
++        va='bottom',
++        bbox=dict(boxstyle='round,pad=0.12',
++                  facecolor='white',
++                  edgecolor='none',
++                  alpha=0.85))

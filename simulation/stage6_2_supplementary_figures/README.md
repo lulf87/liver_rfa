@@ -1,19 +1,17 @@
-
 # stage6_2_supplementary_figures
 
-This stage adds the two missing supplementary figures that strengthen the paper package:
+**Status:** current canonical generator for Supplementary Figure S5.
 
-- **Fig S4:** Calibration and internal benchmark
-  - (A) no-vessel calibration sweep of `source_scale_per_W` against equivalent lesion diameter
-  - (B) lesion-diameter penalty versus vessel gap as an internal heat-sink benchmark
+This stage adds the protocol-selection supplementary figure needed to justify the final balanced and aggressive protocol choices.
 
-- **Fig S5:** Protocol selection under the no-vessel baseline
+## Output produced here
+
+- **Fig S5:** protocol selection under the no-vessel baseline
   - (A) TCR heatmap across power/time
   - (B) MDI heatmap across power/time
   - marks the final **Balanced** and **Aggressive** protocols
 
 ## Expected upstream stages
-By default this stage expects:
 
 ```text
 simulation/stage5_final_frozen/
@@ -35,13 +33,4 @@ source .venv/bin/activate
 pip install -U pip
 pip install -r requirements.txt
 bash run_all.sh
-```
-
-## Outputs
-
-```text
-outputs/fig_supp/FigS4_calibration_benchmark.pdf
-outputs/fig_supp/FigS4_calibration_benchmark.png
-outputs/fig_supp/FigS5_protocol_selection.pdf
-outputs/fig_supp/FigS5_protocol_selection.png
 ```

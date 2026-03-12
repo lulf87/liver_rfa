@@ -1,0 +1,35 @@
+source:
+  figure_root: ../../manuscript/figures
+  preview_root: ../../manuscript/figures/preview_png
+
+output:
+  submission_artwork_root: ../../manuscript/figures/submission_artwork
+
+figures:
+  - name: Fig1
+    source_group: main
+    dpi_kind: line
+  - name: Fig2
+    source_group: main
+    dpi_kind: combo
+  - name: Fig3
+    source_group: main
+    dpi_kind: combo
+  - name: Fig4
+    source_group: main
+    dpi_kind: line
+  - name: FigS1
+    source_group: supplementary
+    dpi_kind: line
+  - name: FigS2
+    source_group: supplementary
+    dpi_kind: combo
+  - name: FigS3
+    source_group: supplementary
+    dpi_kind: combo
+  - name: FigS4
+    source_group: supplementary
+    dpi_kind: combo
+  - name: FigS5
+    source_group: supplementary
+    dpi_kind: combo
