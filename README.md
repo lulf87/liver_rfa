@@ -24,5 +24,8 @@ The project is organized as a sequence of stages, from minimal geometry tests to
 ```text
 liver_rfa/
 ├── docs/                    # repository-level utilities and notes
-├── manuscript/              # figures, tables, notes, and manuscript drafting material
+├── manuscript/              # normalized figures, tables, manifests, and notes
+├── papers/                  # versioned manuscript packages by revision stage
 └── simulation/              # stage-wise simulation workflow
+
+The `papers/` directory stores revision-specific manuscript packages (e.g., `V9/`), while `manuscript/` stores repository-level normalized figures, tables, and notes.
