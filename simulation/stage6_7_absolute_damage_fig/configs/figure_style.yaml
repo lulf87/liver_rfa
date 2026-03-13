@@ -1,0 +1,13 @@
+source:
+  final_stage_root: ../stage5_final_frozen
+figure:
+  preview_dpi: 300
+  publication_dpi: 600
+  width_mm: 140
+  height_mm: 70
+  moderate_color: "#3E8E7E"
+  high_color: "#D17C32"
+  bg_color: "#FFFFFF"
+  axis_color: "#303030"
+selection:
+  vessel_diameter_mm: 5.0

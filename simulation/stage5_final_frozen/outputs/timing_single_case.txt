@@ -1,0 +1,24 @@
+Saved fields to /Users/lulingfeng/Projects/liver_rfa/simulation/stage5_final_frozen/outputs/cases/stage5_reference_161.npz
+Saved metrics to /Users/lulingfeng/Projects/liver_rfa/simulation/stage5_final_frozen/outputs/metrics/stage5_reference_161.json
+Saved figure to /Users/lulingfeng/Projects/liver_rfa/simulation/stage5_final_frozen/outputs/figures/stage5_reference_161_overview.png
+{'equivalent_lesion_diameter_mm': 32.361080413741924, 'TCR': 1.0, 'MDI': 0.2976190476190476, 'VUA_deg': 25.0, 'DSC_target': 0.6773638968481376, 'PPV_target': 0.5389057750759878, 'target_area_px': 1945, 'lesion_area_px': 3290, 'tumor_area_px': 709}
+real 2.41
+user 1.09
+sys 0.14
+           237912064  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               20583  page reclaims
+                1230  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                1491  voluntary context switches
+                2819  involuntary context switches
+         16871059885  instructions retired
+          4661804437  cycles elapsed
+           190464960  peak memory footprint

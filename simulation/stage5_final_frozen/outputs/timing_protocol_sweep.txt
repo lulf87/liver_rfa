@@ -1,0 +1,39 @@
+{'protocol_label': 'balanced', 'power_W': 60.0, 'time_s': 600.0, 'gap_mm': 0.0, 'vessel_diameter_mm': 3.0, 'has_vessel': 1, 'equivalent_lesion_diameter_mm': 29.125518822500005, 'TCR': 0.9506346967559943, 'MDI': 0.36904761904761907, 'VUA_deg': 31.0, 'DSC_target': 0.7284164859002169, 'PPV_target': 0.6300187617260788, 'target_area_px': 1945, 'lesion_area_px': 2665, 'tumor_area_px': 709}
+{'protocol_label': 'balanced', 'power_W': 60.0, 'time_s': 600.0, 'gap_mm': 2.0, 'vessel_diameter_mm': 3.0, 'has_vessel': 1, 'equivalent_lesion_diameter_mm': 29.580971537784905, 'TCR': 0.998589562764457, 'MDI': 0.32142857142857145, 'VUA_deg': 27.0, 'DSC_target': 0.7452066467831274, 'PPV_target': 0.6362313568570389, 'target_area_px': 1945, 'lesion_area_px': 2749, 'tumor_area_px': 709}
+{'protocol_label': 'balanced', 'power_W': 60.0, 'time_s': 600.0, 'gap_mm': 5.0, 'vessel_diameter_mm': 3.0, 'has_vessel': 1, 'equivalent_lesion_diameter_mm': 30.167001253015812, 'TCR': 1.0, 'MDI': 0.25, 'VUA_deg': 21.0, 'DSC_target': 0.763946711074105, 'PPV_target': 0.6418328086743617, 'target_area_px': 1945, 'lesion_area_px': 2859, 'tumor_area_px': 709}
+{'protocol_label': 'balanced', 'power_W': 60.0, 'time_s': 600.0, 'gap_mm': 0.0, 'vessel_diameter_mm': 5.0, 'has_vessel': 1, 'equivalent_lesion_diameter_mm': 28.78472917601288, 'TCR': 0.9393511988716502, 'MDI': 0.36904761904761907, 'VUA_deg': 31.0, 'DSC_target': 0.7207563764291997, 'PPV_target': 0.6296580868228967, 'target_area_px': 1945, 'lesion_area_px': 2603, 'tumor_area_px': 709}
+{'protocol_label': 'balanced', 'power_W': 60.0, 'time_s': 600.0, 'gap_mm': 2.0, 'vessel_diameter_mm': 5.0, 'has_vessel': 1, 'equivalent_lesion_diameter_mm': 29.375808098574183, 'TCR': 0.998589562764457, 'MDI': 0.32142857142857145, 'VUA_deg': 27.0, 'DSC_target': 0.7401202749140894, 'PPV_target': 0.6355588343784582, 'target_area_px': 1945, 'lesion_area_px': 2711, 'tumor_area_px': 709}
+{'protocol_label': 'balanced', 'power_W': 60.0, 'time_s': 600.0, 'gap_mm': 5.0, 'vessel_diameter_mm': 5.0, 'has_vessel': 1, 'equivalent_lesion_diameter_mm': 30.093049466494495, 'TCR': 1.0, 'MDI': 0.25, 'VUA_deg': 21.0, 'DSC_target': 0.7636743215031315, 'PPV_target': 0.6428822495606327, 'target_area_px': 1945, 'lesion_area_px': 2845, 'tumor_area_px': 709}
+{'protocol_label': 'balanced', 'power_W': 60.0, 'time_s': 600.0, 'gap_mm': 0.0, 'vessel_diameter_mm': 8.0, 'has_vessel': 1, 'equivalent_lesion_diameter_mm': 28.473413566169317, 'TCR': 0.9393511988716502, 'MDI': 0.39285714285714285, 'VUA_deg': 33.0, 'DSC_target': 0.7181656277827249, 'PPV_target': 0.6332940714566156, 'target_area_px': 1945, 'lesion_area_px': 2547, 'tumor_area_px': 709}
+{'protocol_label': 'balanced', 'power_W': 60.0, 'time_s': 600.0, 'gap_mm': 2.0, 'vessel_diameter_mm': 8.0, 'has_vessel': 1, 'equivalent_lesion_diameter_mm': 29.212819187109325, 'TCR': 0.998589562764457, 'MDI': 0.34523809523809523, 'VUA_deg': 29.0, 'DSC_target': 0.7397319498486814, 'PPV_target': 0.6381947034688549, 'target_area_px': 1945, 'lesion_area_px': 2681, 'tumor_area_px': 709}
+{'protocol_label': 'balanced', 'power_W': 60.0, 'time_s': 600.0, 'gap_mm': 5.0, 'vessel_diameter_mm': 8.0, 'has_vessel': 1, 'equivalent_lesion_diameter_mm': 30.02951727148938, 'TCR': 1.0, 'MDI': 0.25, 'VUA_deg': 21.0, 'DSC_target': 0.7639179573043114, 'PPV_target': 0.6441934345217084, 'target_area_px': 1945, 'lesion_area_px': 2833, 'tumor_area_px': 709}
+{'protocol_label': 'aggressive', 'power_W': 70.0, 'time_s': 600.0, 'gap_mm': 0.0, 'vessel_diameter_mm': 3.0, 'has_vessel': 1, 'equivalent_lesion_diameter_mm': 32.28229495196602, 'TCR': 0.9661495063469676, 'MDI': 0.32142857142857145, 'VUA_deg': 27.0, 'DSC_target': 0.6648783291818356, 'PPV_target': 0.5299328039095907, 'target_area_px': 1945, 'lesion_area_px': 3274, 'tumor_area_px': 709}
+{'protocol_label': 'aggressive', 'power_W': 70.0, 'time_s': 600.0, 'gap_mm': 2.0, 'vessel_diameter_mm': 3.0, 'has_vessel': 1, 'equivalent_lesion_diameter_mm': 32.64508384034771, 'TCR': 1.0, 'MDI': 0.27380952380952384, 'VUA_deg': 23.0, 'DSC_target': 0.6790100132250142, 'PPV_target': 0.5367383512544803, 'target_area_px': 1945, 'lesion_area_px': 3348, 'tumor_area_px': 709}
+{'protocol_label': 'aggressive', 'power_W': 70.0, 'time_s': 600.0, 'gap_mm': 5.0, 'vessel_diameter_mm': 3.0, 'has_vessel': 1, 'equivalent_lesion_diameter_mm': 33.25848545091422, 'TCR': 1.0, 'MDI': 0.2261904761904762, 'VUA_deg': 19.0, 'DSC_target': 0.6959409594095941, 'PPV_target': 0.5427338129496403, 'target_area_px': 1945, 'lesion_area_px': 3475, 'tumor_area_px': 709}
+{'protocol_label': 'aggressive', 'power_W': 70.0, 'time_s': 600.0, 'gap_mm': 0.0, 'vessel_diameter_mm': 5.0, 'has_vessel': 1, 'equivalent_lesion_diameter_mm': 31.895429080722444, 'TCR': 0.9605077574047954, 'MDI': 0.34523809523809523, 'VUA_deg': 29.0, 'DSC_target': 0.658626726317837, 'PPV_target': 0.5297246558197747, 'target_area_px': 1945, 'lesion_area_px': 3196, 'tumor_area_px': 709}
+{'protocol_label': 'aggressive', 'power_W': 70.0, 'time_s': 600.0, 'gap_mm': 2.0, 'vessel_diameter_mm': 5.0, 'has_vessel': 1, 'equivalent_lesion_diameter_mm': 32.361080413741924, 'TCR': 1.0, 'MDI': 0.2976190476190476, 'VUA_deg': 25.0, 'DSC_target': 0.6773638968481376, 'PPV_target': 0.5389057750759878, 'target_area_px': 1945, 'lesion_area_px': 3290, 'tumor_area_px': 709}
+{'protocol_label': 'aggressive', 'power_W': 70.0, 'time_s': 600.0, 'gap_mm': 5.0, 'vessel_diameter_mm': 5.0, 'has_vessel': 1, 'equivalent_lesion_diameter_mm': 33.032806266468405, 'TCR': 1.0, 'MDI': 0.2261904761904762, 'VUA_deg': 19.0, 'DSC_target': 0.6964451889075005, 'PPV_target': 0.5457992998833139, 'target_area_px': 1945, 'lesion_area_px': 3428, 'tumor_area_px': 709}
+{'protocol_label': 'aggressive', 'power_W': 70.0, 'time_s': 600.0, 'gap_mm': 0.0, 'vessel_diameter_mm': 8.0, 'has_vessel': 1, 'equivalent_lesion_diameter_mm': 31.483598675760117, 'TCR': 0.9576868829337094, 'MDI': 0.36904761904761907, 'VUA_deg': 31.0, 'DSC_target': 0.6566515121565527, 'PPV_target': 0.5333975594091201, 'target_area_px': 1945, 'lesion_area_px': 3114, 'tumor_area_px': 709}
+{'protocol_label': 'aggressive', 'power_W': 70.0, 'time_s': 600.0, 'gap_mm': 2.0, 'vessel_diameter_mm': 8.0, 'has_vessel': 1, 'equivalent_lesion_diameter_mm': 32.1439557390279, 'TCR': 1.0, 'MDI': 0.32142857142857145, 'VUA_deg': 27.0, 'DSC_target': 0.6777114236178, 'PPV_target': 0.541897720271103, 'target_area_px': 1945, 'lesion_area_px': 3246, 'tumor_area_px': 709}
+{'protocol_label': 'aggressive', 'power_W': 70.0, 'time_s': 600.0, 'gap_mm': 5.0, 'vessel_diameter_mm': 8.0, 'has_vessel': 1, 'equivalent_lesion_diameter_mm': 33.00870703931185, 'TCR': 1.0, 'MDI': 0.2261904761904762, 'VUA_deg': 19.0, 'DSC_target': 0.6982116244411326, 'PPV_target': 0.5474729769208296, 'target_area_px': 1945, 'lesion_area_px': 3423, 'tumor_area_px': 709}
+Saved summary to /Users/lulingfeng/Projects/liver_rfa/simulation/stage5_final_frozen/outputs/tables/stage4_protocol_gap_diameter_summary.csv
+real 13.26
+user 12.91
+sys 0.19
+           330891264  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               35817  page reclaims
+                 182  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 694  voluntary context switches
+                7585  involuntary context switches
+        208449028381  instructions retired
+         48098068895  cycles elapsed
+           282330096  peak memory footprint
