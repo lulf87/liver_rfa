@@ -150,7 +150,7 @@ def make_figS4(cfg: dict, paths: dict) -> None:
     ax = axes[1]
     for label, color in [('balanced', style_cfg['balanced_color']), ('aggressive', style_cfg['aggressive_color'])]:
         sub = penalty[penalty['protocol_label'] == label].sort_values('gap_mm')
-        ax.plot(sub['gap_mm'], sub['diameter_penalty_mm'], marker='o', color=color, lw=2.1, ms=5.5, label=label.capitalize())
+        ax.plot(sub['gap_mm'], sub['diameter_penalty_mm'], marker='o', color=color, lw=2.1, ms=5.5, label=("Moderate-energy" if label=="balanced" else "High-energy"))
     ax.axhline(0.0, color='#BBBBBB', lw=1.0, linestyle='--')
     ax.set_xlabel('Vessel gap (mm)')
     ax.set_ylabel('Lesion diameter penalty (mm)')
@@ -202,7 +202,7 @@ def make_figS5(cfg: dict, paths: dict) -> None:
     _annotate_heatmap(axes[0], tcr, cmap1, vmin1, vmax1, '.3f')
     axes[0].text(0.02, 1.03, '(A) No-vessel TCR map', transform=axes[0].transAxes, fontweight='bold')
     # highlight protocols
-    for (i,j,color,label,dy) in [(i_bal,j_bal,style_cfg['balanced_color'],'Balanced',0.15),(i_agg,j_agg,style_cfg['aggressive_color'],'Aggressive',-0.28)]:
+    for (i,j,color,label,dy) in [(i_bal,j_bal,style_cfg['balanced_color'],'Moderate-energy',0.15),(i_agg,j_agg,style_cfg['aggressive_color'],'High-energy',-0.28)]:
         axes[0].add_patch(Rectangle((j-0.5, i-0.5), 1, 1, fill=False, ec=color, lw=2.0))
         axes[0].text(j+0.55, i+dy, label, color=color, fontsize=7.4, fontweight='bold')
 
@@ -216,7 +216,7 @@ def make_figS5(cfg: dict, paths: dict) -> None:
     axes[1].set_yticklabels([])
     _annotate_heatmap(axes[1], mdi, cmap2, vmin2, vmax2, '.3f')
     axes[1].text(0.02, 1.03, '(B) No-vessel MDI map', transform=axes[1].transAxes, fontweight='bold')
-    for (i,j,color,label,dy) in [(i_bal,j_bal,style_cfg['balanced_color'],'Balanced',0.15),(i_agg,j_agg,style_cfg['aggressive_color'],'Aggressive',-0.28)]:
+    for (i,j,color,label,dy) in [(i_bal,j_bal,style_cfg['balanced_color'],'Moderate-energy',0.15),(i_agg,j_agg,style_cfg['aggressive_color'],'High-energy',-0.28)]:
         axes[1].add_patch(Rectangle((j-0.5, i-0.5), 1, 1, fill=False, ec=color, lw=2.0))
         axes[1].text(j+0.55, i+dy, label, color=color, fontsize=7.4, fontweight='bold')
 

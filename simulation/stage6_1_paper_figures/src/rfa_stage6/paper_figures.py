@@ -364,10 +364,10 @@ def make_fig3(cfg: dict, paths: dict) -> None:
         _data_axis(ax, style_cfg)
 
     im1 = _heat(axes[0], m_bal, gaps, diameters, cmap="viridis", vmin=vmin, vmax=vmax, ylabel=True)
-    axes[0].text(0.02, 1.03, "(A) Balanced", transform=axes[0].transAxes, fontweight="bold")
+    axes[0].text(0.02, 1.03, "(A) Moderate-energy", transform=axes[0].transAxes, fontweight="bold")
 
     im2 = _heat(axes[1], m_agg, gaps, diameters, cmap="viridis", vmin=vmin, vmax=vmax, ylabel=False)
-    axes[1].text(0.02, 1.03, "(B) Aggressive", transform=axes[1].transAxes, fontweight="bold")
+    axes[1].text(0.02, 1.03, "(B) High-energy", transform=axes[1].transAxes, fontweight="bold")
 
     im3 = _heat(axes[2], delta, gaps, diameters, cmap="OrRd", vmin=dmin, vmax=dmax, ylabel=False)
     axes[2].text(0.02, 1.03, "(C) MDI reduction", transform=axes[2].transAxes, fontweight="bold")
@@ -396,9 +396,9 @@ def make_fig4(cfg: dict, paths: dict) -> None:
     for label, color in [("balanced", style_cfg["balanced_color"]), ("aggressive", style_cfg["aggressive_color"])]:
         sub = summary[(summary["protocol_label"] == label) & (summary["has_vessel"] == 1) & (np.isclose(summary["vessel_diameter_mm"], d_ref))]
         sub = sub.sort_values("gap_mm")
-        l1, = axes[0].plot(sub["gap_mm"], sub["MDI"], marker="o", color=color, linewidth=2.2, markersize=6, label=label.capitalize())
+        l1, = axes[0].plot(sub["gap_mm"], sub["MDI"], marker="o", color=color, linewidth=2.2, markersize=6, label=display_names[label])
         axes[1].plot(sub["gap_mm"], sub["PPV_target"], marker="o", color=color, linewidth=2.2, markersize=6)
-        lines.append(l1); labels.append(label.capitalize())
+        lines.append(l1); labels.append(display_names[label])
 
     axes[0].set_xlabel("Vessel gap (mm)"); axes[0].set_ylabel("MDI")
     axes[1].set_xlabel("Vessel gap (mm)"); axes[1].set_ylabel("PPV_target")
@@ -462,7 +462,7 @@ def make_figS2_S3(cfg: dict, paths: dict) -> None:
     for metric, stem, cbar_label, cmap, vmin, vmax, fmt in spec:
         mats = [_metric_matrix(summary, prot, metric, gaps, diameters) for prot in ["balanced", "aggressive"]]
         fig, axes = plt.subplots(1, 2, figsize=(7.2, 3.5))
-        for k, (ax, mat, label) in enumerate(zip(axes, mats, ["(A) Balanced", "(B) Aggressive"])):
+        for k, (ax, mat, label) in enumerate(zip(axes, mats, ["(A) Moderate-energy", "(B) High-energy"])):
             _data_axis(ax, style_cfg)
             im = ax.imshow(mat, origin="lower", aspect="auto", cmap=cmap, vmin=vmin, vmax=vmax)
             ax.set_xticks(np.arange(len(gaps))); ax.set_xticklabels([f"{g:g}" for g in gaps])

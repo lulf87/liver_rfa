@@ -121,8 +121,8 @@ def make_fig(df: pd.DataFrame, cfg: dict) -> plt.Figure:
     ax1.grid(alpha=0.2)
 
     protocol_handles = [
-        Line2D([0], [0], marker='o', linestyle='None', markerfacecolor=color_map['balanced'], markeredgecolor='#111111', markersize=8, label='Balanced'),
-        Line2D([0], [0], marker='o', linestyle='None', markerfacecolor=color_map['aggressive'], markeredgecolor='#111111', markersize=8, label='Aggressive'),
+        Line2D([0], [0], marker='o', linestyle='None', markerfacecolor=color_map['balanced'], markeredgecolor='#111111', markersize=8, label='Moderate-energy'),
+        Line2D([0], [0], marker='o', linestyle='None', markerfacecolor=color_map['aggressive'], markeredgecolor='#111111', markersize=8, label='High-energy'),
     ]
     vessel_handles = [
         Line2D([0], [0], marker='o', linestyle='None', markerfacecolor='white', markeredgecolor='#111111', markersize=8, label='3 mm vessel'),
@@ -159,7 +159,7 @@ def make_fig(df: pd.DataFrame, cfg: dict) -> plt.Figure:
         ax2b.plot([ex['gap5_mdi'], ex['gap0_mdi']], [y, y], color=col, lw=2.0, alpha=0.85)
         ax2b.scatter([ex['gap5_mdi'], ex['gap0_mdi']], [y, y], color=col, edgecolor='#111111', s=85, zorder=3)
         ax2b.text(ex['gap0_mdi'] + 0.01, y, f'ΔMDI={ex["delta_mdi"]:.3f}', va='center', fontsize=8.5)
-        label = f"{ex['protocol_label'].capitalize()}, {int(ex['vessel_diameter_mm'])} mm vessel"
+        label = f"{('Moderate-energy' if ex['protocol_label']=='balanced' else 'High-energy')}, {int(ex['vessel_diameter_mm'])} mm vessel"
         ax2b.text(ax2b.get_xlim()[0] if idx else 0.235, y + 0.18, label, fontsize=8.8, color='#444444')
 
     ax2b.set_yticks([])

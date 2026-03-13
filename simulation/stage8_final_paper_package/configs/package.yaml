@@ -1,0 +1,28 @@
+source:
+  papers_v9_root: ../../papers/V9
+expected:
+  main:
+    - Fig1.pdf
+    - Fig2.pdf
+    - Fig3.pdf
+    - Fig4.pdf
+  supplementary:
+    - FigS1.pdf
+    - FigS2.pdf
+    - FigS3.pdf
+    - FigS4.pdf
+    - FigS5.pdf
+    - FigS6.pdf
+    - FigS7.pdf
+  preview_png:
+    - Fig1.png
+    - Fig2.png
+    - Fig3.png
+    - Fig4.png
+    - FigS1.png
+    - FigS2.png
+    - FigS3.png
+    - FigS4.png
+    - FigS5.png
+    - FigS6.png
+    - FigS7.png
